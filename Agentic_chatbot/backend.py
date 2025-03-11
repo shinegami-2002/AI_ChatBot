@@ -18,6 +18,9 @@ from ai_agent import get_response_from_ai_agent
 ALLOWED_MODEL_NAMES=["llama3-70b-8192", "mixtral-8x7b-32768", "llama-3.3-70b-versatile", "gpt-4o-mini"]
 
 app = FastAPI(title="AI agent") 
+@app.get("/")
+def read_root():
+    return {"message": "Backend is live!"}
 
 @app.post("/chat")
 def chat_endpoint(request: RequestState):

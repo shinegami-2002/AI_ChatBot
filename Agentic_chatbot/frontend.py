@@ -17,8 +17,8 @@ elif provider == "OpenAI":
 
 allow_web_search=st.checkbox("Allow Web Search")
 
-system_prompt = st.text_area("Enter your query:", height = 100, placeholder="Ask away..")
-
+user_query = st.text_area("Enter your query:", height = 100, placeholder="Ask away..")
+API_URL="https://ai-chatbot-5l1e.onrender.com/chat"
 
 if st.button("Ask Agent!"):
     if user_query.strip():

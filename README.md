@@ -1,6 +1,4 @@
 
-
-```markdown
 # AI ChatBot
 
 A simple AI ChatBot built with FastAPI as the backend and Streamlit as the frontend. This project uses Python 3.11 and integrates with Groq, OpenAI, and Tavily APIs. Sensitive API keys are stored securely in a `.env` file.
@@ -127,7 +125,6 @@ Try out the AI ChatBot frontend hosted on Streamlit Community Cloud:
 
 Including a project structure can help others understand your code organization. Below is an example structure:
 
-```
 AI_ChatBot/
 ├── AGENTIC_CHATBOT/
 │   ├── backend.py       # FastAPI backend application

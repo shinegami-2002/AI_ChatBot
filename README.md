@@ -121,14 +121,4 @@ Try out the AI ChatBot frontend hosted on Streamlit Community Cloud:
 
    Your Streamlit app will automatically build and deploy on the community cloud.
 
-## (Optional) Project Structure
-
-Including a project structure can help others understand your code organization. Below is an example structure:
-
-AI_ChatBot/
-├── AGENTIC_CHATBOT/
-│   ├── backend.py       # FastAPI backend application
-│   ├── frontend.py      # Streamlit frontend application
-├   └── requirements.txt # Python dependencies
-└── .env                 # Environment variables (not tracked in Git)
 
